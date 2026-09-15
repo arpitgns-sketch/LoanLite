@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LoanLite.API/LoanLite.API.csproj" />
+  <Project Path="LoanLite.Business/LoanLite.Business.csproj" />
+  <Project Path="LoanLite.DataAccess/LoanLite.DataAccess.csproj" />
+</Solution>

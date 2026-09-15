@@ -1,0 +1,24 @@
+/* Global styles for LoanLite UI */
+:root {
+  --brand: #E67E22;
+  --ink: #2b2f36;
+  --muted: #90a4ae;
+  --line: #eceff1;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  background: #f4f6f8;
+}
+a { color: var(--brand); }
+
+/* Reusable table style for work lists / My Applications */
+.data-table { width: 100%; border-collapse: collapse; background: #fff; }
+.data-table th, .data-table td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: .9rem; }
+.data-table th { color: #607d8b; font-weight: 600; background: #fafbfc; }
+.data-table tr:hover td { background: #fcfdfe; }
+
+/* Generic card */
+.card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 4px 16px rgba(0,0,0,.04); }

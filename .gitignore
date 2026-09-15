@@ -1,0 +1,54 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+TestResults/
+
+# Angular
+**/node_modules/
+**/.angular/
+**/dist/
+**/coverage/
+
+# Local configuration and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Uploaded documents
+**/wwwroot/uploads/
+**/uploads/
+
+# Local database files and backups
+*.db
+*.sqlite
+*.bak
+*.backup
+
+# Local uploaded document files
+LoanLite.API/App_Data/Documents/
+
+# Unused duplicate Visual Studio solution
+Solution1/

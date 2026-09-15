@@ -1,0 +1,57 @@
+.auth {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  background: #f4f6f8;
+}
+.auth--single { grid-template-columns: 1fr; place-items: center; }
+
+.auth__brand {
+  background: #2b2f36;
+  color: #fff;
+  padding: 56px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.auth__logo { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.25rem; margin-bottom: 20px; }
+.auth__logo .box { width: 18px; height: 18px; background: #E67E22; border-radius: 4px; }
+.auth__brand h1 { font-size: 1.9rem; line-height: 1.25; margin: 8px 0 0; }
+
+.auth__card {
+  align-self: center;
+  justify-self: center;
+  width: 360px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.08);
+}
+.auth__card--wide { width: 440px; }
+
+.auth__card h2 { margin: 0 0 4px; font-size: 1.5rem; }
+.muted { color: #90a4ae; margin: 0 0 20px; font-size: .9rem; }
+
+form label { display: block; font-size: .82rem; color: #455a64; margin: 12px 0 4px; }
+form input {
+  width: 100%; box-sizing: border-box; padding: 10px 12px;
+  border: 1px solid #d0d5dd; border-radius: 8px; font-size: .95rem;
+}
+form input:focus { outline: none; border-color: #E67E22; box-shadow: 0 0 0 3px rgba(230,126,34,.15); }
+
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+.btn-primary {
+  width: 100%; margin-top: 20px; padding: 11px; border: none; border-radius: 8px;
+  background: #E67E22; color: #fff; font-weight: 600; font-size: .95rem; cursor: pointer;
+}
+.btn-primary:hover { background: #d46f16; }
+.btn-primary:disabled { opacity: .6; cursor: not-allowed; }
+
+.note {
+  margin-top: 14px; padding: 8px 12px; background: #fff4e6;
+  border: 1px solid #ffe0b2; border-radius: 8px; font-size: .82rem; color: #a15c00;
+}
+.switch { text-align: center; margin-top: 18px; font-size: .9rem; color: #607d8b; }
+.switch a { color: #E67E22; text-decoration: none; font-weight: 600; }
+.hint { text-align: center; margin-top: 8px; font-size: .75rem; color: #b0bec5; }
